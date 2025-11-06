@@ -198,7 +198,7 @@
             </div>
             <div class="hint pt-x1">
               <span>✨</span>
-              <p>Use <a href="aa" target="_blank" class="btn1">Sharenote Print Planner</a> to calculate target sharenote you can print using a given hashrate.</p>
+              <p>Use <a href="http://planner.sharenote.xyz" target="_blank" class="btn1">Sharenote Print Planner</a> to calculate target sharenote you can print using a given hashrate.</p>
             </div>
           </div>
         </div>

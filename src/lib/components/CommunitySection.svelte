@@ -7,8 +7,8 @@
       <div class="grid three">
         <div class="community__item">
           <h3>Chat with Miners</h3>
-          <p>Join the <a href="https://discord" target="_blank" class="link">#mining</a> channel on the Flokicoin Community Discord for real-time updates and tuning tips.</p>
-          <a class="btn secondary" href="https://discord" target="_blank">Open Chat</a>
+          <p>Join the <a href="https://flokicoin.org/discord" target="_blank" class="link">#mining</a> channel on the Flokicoin Community Discord for real-time updates and tuning tips.</p>
+          <a class="btn secondary" href="https://flokicoin.org/discord" target="_blank">Open Chat</a>
         </div>
         <div class="community__item">
           <h3>Sharenote Basics</h3>
@@ -18,7 +18,7 @@
         <div class="community__item">
           <h3>Need Support?</h3>
           <p>Join us on Flokicoin Community Discord to get support, share feedback, and connect with other users.</p>
-          <a class="btn secondary" href="https://discordd" target="_blank">Join Flokicoin Community</a>
+          <a class="btn secondary" href="https://flokicoin.org/discord" target="_blank">Join Flokicoin Community</a>
         </div>
       </div>
     </div>
