@@ -43,6 +43,7 @@
             <a href={link.href} on:click={handleNavClick}>{link.label}</a>
           </li>
         {/each}
+        <li><a href="https://github.com/hash2cash" target="_blank" class="flex"><span class="github"></span></a></li>
       </ul>
       <a class="btn secondary header__cta" href="/#generate" on:click={handleNavClick}>
         Start Mining
@@ -95,6 +96,14 @@
   .brand__name{
     font-size:20px;
   }
+
+  .github{
+    display:inline-block;
+    background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true" data-astro-cid-3hxe222u=""><path d="M12 .5A11.5 11.5 0 0 0 .5 12.3c0 5.25 3.41 9.7 8.15 11.28.6.12.82-.27.82-.59 0-.29-.01-1.07-.02-2.1-3.32.73-4.02-1.64-4.02-1.64-.55-1.43-1.34-1.81-1.34-1.81-1.09-.77.08-.75.08-.75 1.2.09 1.83 1.26 1.83 1.26 1.07 1.86 2.8 1.32 3.49 1.01.11-.79.42-1.32 .76-1.63-2.65-.31-5.44-1.36-5.44-6.05 0-1.34.47-2.44 1.25-3.3-.13-.31-.54-1.56.12-3.26 0 0 1.01-.33 3.3 1.26.96-.27 1.99-.4 3.02-.4s2.06.14 3.02.4c2.29-1.59 3.3-1.26 3.3-1.26.67 1.7.25 2.95.12 3.26.78.86 1.25 1.96 1.25 3.3 0 4.71-2.8 5.74-5.46 6.04.44.38.82 1.12.82 2.25 0 1.62-.01 2.93-.01 3.33 0 .32.21.72.83.59 4.74-1.58 8.14-6.03 8.14-11.28A11.5 11.5 0 0 0 12 .5Z" data-astro-cid-3hxe222u=""></path></svg>');
+    background-size:100%;
+    width:20px;height:20px;
+  }
+  .flex{display:flex}
 
   nav {
     display: flex;
