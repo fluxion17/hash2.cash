@@ -48,10 +48,59 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@noble/ciphers@0.2.0":
+  "integrity" "sha512-6YBxJDAapHSdd3bLDv6x2wRPwq4QFMUaB3HvljNBUTThDd12eSm7/3F+2lnfzx2jvM+S6Nsy0jEt9QbPqSwqRw=="
+  "resolved" "https://registry.npmjs.org/@noble/ciphers/-/ciphers-0.2.0.tgz"
+  "version" "0.2.0"
+
+"@noble/curves@~1.1.0", "@noble/curves@1.1.0":
+  "integrity" "sha512-091oBExgENk/kGj3AZmtBDMpxQPDtxQABR2B9lb1JbVTs6ytdzZNwvhxQ4MWasRNEzlbEH8jCWFCwhF/Obj5AA=="
+  "resolved" "https://registry.npmjs.org/@noble/curves/-/curves-1.1.0.tgz"
+  "version" "1.1.0"
+  dependencies:
+    "@noble/hashes" "1.3.1"
+
 "@noble/hashes@^1.2.0":
   "integrity" "sha512-jCs9ldd7NwzpgXDIf6P3+NrHh9/sD6CQdxHyjQI+h/6rDNo88ypBxxz45UDuZHz9r3tNz7N/VInSVoVdtXEI4A=="
   "resolved" "https://registry.npmjs.org/@noble/hashes/-/hashes-1.8.0.tgz"
   "version" "1.8.0"
+
+"@noble/hashes@~1.3.0":
+  "integrity" "sha512-V7/fPHgl+jsVPXqqeOzT8egNj2iBIVt+ECeMMG8TdcnTikP3oaBtUVqpT/gYCR68aEBJSF+XbYUxStjbFMqIIA=="
+  "resolved" "https://registry.npmjs.org/@noble/hashes/-/hashes-1.3.3.tgz"
+  "version" "1.3.3"
+
+"@noble/hashes@~1.3.1":
+  "integrity" "sha512-V7/fPHgl+jsVPXqqeOzT8egNj2iBIVt+ECeMMG8TdcnTikP3oaBtUVqpT/gYCR68aEBJSF+XbYUxStjbFMqIIA=="
+  "resolved" "https://registry.npmjs.org/@noble/hashes/-/hashes-1.3.3.tgz"
+  "version" "1.3.3"
+
+"@noble/hashes@1.3.1":
+  "integrity" "sha512-EbqwksQwz9xDRGfDST86whPBgM65E0OH/pCgqW0GBVzO22bNE+NuIbeTb714+IfSjU3aRk47EUvXIb5bTsenKA=="
+  "resolved" "https://registry.npmjs.org/@noble/hashes/-/hashes-1.3.1.tgz"
+  "version" "1.3.1"
+
+"@scure/base@~1.1.0", "@scure/base@1.1.1":
+  "integrity" "sha512-ZxOhsSyxYwLJj3pLZCefNitxsj093tb2vq90mp2txoYeBqbcjDjqFhyM8eUjq/uFm6zJ+mUuqxlS2FkuSY1MTA=="
+  "resolved" "https://registry.npmjs.org/@scure/base/-/base-1.1.1.tgz"
+  "version" "1.1.1"
+
+"@scure/bip32@1.3.1":
+  "integrity" "sha512-osvveYtyzdEVbt3OfwwXFr4P2iVBL5u1Q3q4ONBfDY/UpOuXmOlbgwc1xECEboY8wIays8Yt6onaWMUdUbfl0A=="
+  "resolved" "https://registry.npmjs.org/@scure/bip32/-/bip32-1.3.1.tgz"
+  "version" "1.3.1"
+  dependencies:
+    "@noble/curves" "~1.1.0"
+    "@noble/hashes" "~1.3.1"
+    "@scure/base" "~1.1.0"
+
+"@scure/bip39@1.2.1":
+  "integrity" "sha512-Z3/Fsz1yr904dduJD0NpiyRHhRYHdcnyh73FZWiV+/qhWi83wNJ3NWolYqCEN+ZWsUz2TWwajJggcRE9r1zUYg=="
+  "resolved" "https://registry.npmjs.org/@scure/bip39/-/bip39-1.2.1.tgz"
+  "version" "1.2.1"
+  dependencies:
+    "@noble/hashes" "~1.3.0"
+    "@scure/base" "~1.1.0"
 
 "@soprinter/sharenotejs@^0.1.1":
   "integrity" "sha512-jjQP5PH0OlxTYVdgkL0C9AoCWT8LRTIE5EqJsQ4cSFS3I+mFECp1E1/z6OUputFr9sc5lcTkullXa2tgYXQ6OA=="
@@ -270,6 +319,18 @@
   "integrity" "sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w=="
   "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz"
   "version" "3.3.11"
+
+"nostr-tools@^1.3.1":
+  "integrity" "sha512-LZmR8GEWKZeElbFV5Xte75dOeE9EFUW/QLI1Ncn3JKn0kFddDKEfBbFN8Mu4TMs+L4HR/WTPha2l+PPuRnJcMw=="
+  "resolved" "https://registry.npmjs.org/nostr-tools/-/nostr-tools-1.17.0.tgz"
+  "version" "1.17.0"
+  dependencies:
+    "@noble/ciphers" "0.2.0"
+    "@noble/curves" "1.1.0"
+    "@noble/hashes" "1.3.1"
+    "@scure/base" "1.1.1"
+    "@scure/bip32" "1.3.1"
+    "@scure/bip39" "1.2.1"
 
 "periscopic@^3.1.0":
   "integrity" "sha512-vKiQ8RRtkl9P+r/+oefh25C3fhybptkHKCZSPlcXiJux2tJF55GnEj3BVn4A5gKfq9NWWXXrxkHBwVPUfH0opw=="
